@@ -1,0 +1,43 @@
+/* Apply styles to the entire table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+/* Apply styles to table headers */
+th {
+  background-color: #ffffff;
+  color: rgb(15, 123, 133);
+  cursor: pointer;
+  padding: 12px;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* Apply styles to table data cells */
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+/* Alternate row colors for better readability */
+tr:nth-child(even) {
+  background-color: #559dc7;
+}
+
+/* Hover effect on table rows */
+tr:hover {
+  background-color: #c395bf;
+}
+
+/* Styles for the heading */
+h1 {
+  text-align: center;
+  font-size: 24px;
+  color: teal;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
